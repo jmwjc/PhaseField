@@ -1,0 +1,15 @@
+Ω:
+    type: Element{:Seg2}
+    𝓒:
+        tag: Ω
+    𝓖:
+        type: SegGI2
+        𝝭: [𝝭,∂𝝭∂x]
+
+Γᵍ:
+    type: Element{:Poi1}
+    𝓒:
+        tag: Γ
+    𝓖:
+        type: PoiGI1
+        𝝭: [𝝭]
