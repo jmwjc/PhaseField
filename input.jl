@@ -52,7 +52,7 @@ function import_fem_1D(filename::String)
             x.x = x_
             x.y = y_
             x.z = z_
-            x.𝑤 = 𝐿*x.w
+            x.𝑤 = 𝐿*x.w/2
             push!(𝓖,x)
             s += 2
         end
